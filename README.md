@@ -3,6 +3,7 @@ How to run this project?
   $ mvn spring-boot:run
 
 
+
 How to test this project?
 
 1. create user
@@ -58,13 +59,16 @@ How to test this project?
 
 
 6. Get all driver rides:
+
 	curl --location --request GET 'http://localhost:8080/driver/d1/rides'
 
 7. Get all user rides:
+
 	curl --location --request GET 'http://localhost:8080/user/u2/rides'
 
 
 8. Get total rides count: (ALL statuses)
+
 	curl --location --request GET 'http://localhost:8080/book/total-rides'
 
 
